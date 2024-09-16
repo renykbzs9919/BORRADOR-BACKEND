@@ -1,0 +1,33 @@
+{
+  "name": "probando-otro-back",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "arima": "^0.2.5",
+    "bcryptjs": "^2.4.3",
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-useragent": "^1.0.15",
+    "express-validator": "^7.2.0",
+    "fast-levenshtein": "^3.0.0",
+    "jimp": "^1.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "minmaxscaler": "^1.0.1",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.6.1",
+    "nodemailer": "^6.9.15",
+    "qrcode": "^1.5.4"
+  }
+}
